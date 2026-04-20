@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9531BE41EF633288F960ACF /* LuluApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712DB8CE7DCE2616878A712 /* LuluApp.swift */; };
-		B5ECB5171E80ADF23FE16170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010492B6463AF0AAD834DA29 /* ContentView.swift */; };
-		B3FA8387558841422E73431A /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9C06EAA8254E14B37EA52 /* Sentence.swift */; };
-		F1AB2C88A873E77A60240070 /* DocumentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837781A8192B59E37DBDFE16 /* DocumentPage.swift */; };
-		20BCA56A90562A1CA47305B3 /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */; };
-		EAF6B6C7EB6C941726602099 /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83487989C21AA44CB8E7260 /* TTSViewModel.swift */; };
-		7CB809152C357123F02BFD0D /* SpeechRecognitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */; };
-		C87F20A33C62089996DBE5AC /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD170F98135E5C00B78848 /* OCRService.swift */; };
 		15CBD208327254F0365B504B /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C8D2AD329AD4CA333097D /* DocumentScannerView.swift */; };
-		72C440601358376D1114A1EE /* DocumentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BCEC023645BB27BF7C886 /* DocumentContainerView.swift */; };
 		199B991F2B2072009DD7E7D9 /* DocumentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F55531BEE1CC1D976C8B1 /* DocumentPageView.swift */; };
-		EF3FD5EC0C71CE1163B09AB6 /* ListenRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75271E4F9CF9C2E8691E8615 /* ListenRepeatView.swift */; };
-		5B6B459B0F82381DF3FBFC60 /* WordResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6C00F256242C58651CB1F /* WordResultsView.swift */; };
-		E1326A9D7AD3C953E4E52BAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011D10E1D98143DC99535A1 /* SettingsView.swift */; };
+		20BCA56A90562A1CA47305B3 /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */; };
 		5168153F85C632AFE76F4090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83993DD8F698E9A61690A58 /* Assets.xcassets */; };
+		5B6B459B0F82381DF3FBFC60 /* WordResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6C00F256242C58651CB1F /* WordResultsView.swift */; };
+		72C440601358376D1114A1EE /* DocumentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BCEC023645BB27BF7C886 /* DocumentContainerView.swift */; };
+		7CB809152C357123F02BFD0D /* SpeechRecognitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */; };
+		B3FA8387558841422E73431A /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9C06EAA8254E14B37EA52 /* Sentence.swift */; };
+		B5ECB5171E80ADF23FE16170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010492B6463AF0AAD834DA29 /* ContentView.swift */; };
+		C87F20A33C62089996DBE5AC /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD170F98135E5C00B78848 /* OCRService.swift */; };
+		E1326A9D7AD3C953E4E52BAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011D10E1D98143DC99535A1 /* SettingsView.swift */; };
+		E9531BE41EF633288F960ACF /* LuluApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712DB8CE7DCE2616878A712 /* LuluApp.swift */; };
+		EAF6B6C7EB6C941726602099 /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83487989C21AA44CB8E7260 /* TTSViewModel.swift */; };
+		EF3FD5EC0C71CE1163B09AB6 /* ListenRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75271E4F9CF9C2E8691E8615 /* ListenRepeatView.swift */; };
+		F1AB2C88A873E77A60240070 /* DocumentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837781A8192B59E37DBDFE16 /* DocumentPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5712DB8CE7DCE2616878A712 /* LuluApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluApp.swift; sourceTree = "<group>"; };
 		010492B6463AF0AAD834DA29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		85F9C06EAA8254E14B37EA52 /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
-		837781A8192B59E37DBDFE16 /* DocumentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPage.swift; sourceTree = "<group>"; };
-		600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
-		F83487989C21AA44CB8E7260 /* TTSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSViewModel.swift; sourceTree = "<group>"; };
-		8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionViewModel.swift; sourceTree = "<group>"; };
-		6CDD170F98135E5C00B78848 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
-		E12C8D2AD329AD4CA333097D /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
-		5F0BCEC023645BB27BF7C886 /* DocumentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentContainerView.swift; sourceTree = "<group>"; };
-		965F55531BEE1CC1D976C8B1 /* DocumentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPageView.swift; sourceTree = "<group>"; };
-		75271E4F9CF9C2E8691E8615 /* ListenRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenRepeatView.swift; sourceTree = "<group>"; };
 		1ED6C00F256242C58651CB1F /* WordResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordResultsView.swift; sourceTree = "<group>"; };
 		5011D10E1D98143DC99535A1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D83993DD8F698E9A61690A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5712DB8CE7DCE2616878A712 /* LuluApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluApp.swift; sourceTree = "<group>"; };
+		5F0BCEC023645BB27BF7C886 /* DocumentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentContainerView.swift; sourceTree = "<group>"; };
+		600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
+		6CDD170F98135E5C00B78848 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		75271E4F9CF9C2E8691E8615 /* ListenRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenRepeatView.swift; sourceTree = "<group>"; };
 		75D9F731D124521E3BEFD6F8 /* Lulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837781A8192B59E37DBDFE16 /* DocumentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPage.swift; sourceTree = "<group>"; };
+		8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionViewModel.swift; sourceTree = "<group>"; };
+		85F9C06EAA8254E14B37EA52 /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		965F55531BEE1CC1D976C8B1 /* DocumentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPageView.swift; sourceTree = "<group>"; };
+		D83993DD8F698E9A61690A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E12C8D2AD329AD4CA333097D /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
+		F83487989C21AA44CB8E7260 /* TTSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +54,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE898ECC6CFE120DD277C472 = {
-			isa = PBXGroup;
-			children = (
-				3C25CA3A9B65B9377E3AD5FF /* Lulu */,
-				BC30723BAC5E7B72EC277DFD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		BC30723BAC5E7B72EC277DFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75D9F731D124521E3BEFD6F8 /* Lulu.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3C25CA3A9B65B9377E3AD5FF /* Lulu */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +67,6 @@
 			path = Lulu;
 			sourceTree = "<group>";
 		};
-		74C0C875AF5CAF8F9C5E25E1 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				5712DB8CE7DCE2616878A712 /* LuluApp.swift */,
-				010492B6463AF0AAD834DA29 /* ContentView.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
 		42A3C7247835FFAC34707347 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +76,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E6F764159AE7B4CF2B110B37 /* ViewModels */ = {
+		74C0C875AF5CAF8F9C5E25E1 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */,
-				F83487989C21AA44CB8E7260 /* TTSViewModel.swift */,
-				8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */,
+				5712DB8CE7DCE2616878A712 /* LuluApp.swift */,
+				010492B6463AF0AAD834DA29 /* ContentView.swift */,
 			);
-			path = ViewModels;
+			path = App;
 			sourceTree = "<group>";
 		};
 		78B42430F41C552E9A45FEE0 /* Services */ = {
@@ -130,6 +104,32 @@
 				5011D10E1D98143DC99535A1 /* SettingsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BC30723BAC5E7B72EC277DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D9F731D124521E3BEFD6F8 /* Lulu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6F764159AE7B4CF2B110B37 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				600DCF00D0BB100863286EC4 /* DocumentViewModel.swift */,
+				F83487989C21AA44CB8E7260 /* TTSViewModel.swift */,
+				8586F2526CA1EA2E3D0D833B /* SpeechRecognitionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE898ECC6CFE120DD277C472 = {
+			isa = PBXGroup;
+			children = (
+				3C25CA3A9B65B9377E3AD5FF /* Lulu */,
+				BC30723BAC5E7B72EC277DFD /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +253,66 @@
 			};
 			name = Debug;
 		};
+		A6BB3A3A1B8E5C4483B2AE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTACCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTACCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 495467JDA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lulu needs the camera to scan your French worksheets.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lulu needs your microphone to listen to you read in French.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Lulu uses on-device speech recognition to check your French pronunciation.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lulu.frenchtutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA8BDAAACC7130B60BD66ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTACCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTACCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 495467JDA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lulu needs the camera to scan your French worksheets.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lulu needs your microphone to listen to you read in French.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Lulu uses on-device speech recognition to check your French pronunciation.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lulu.frenchtutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DDB6A9C8ACD7DAEAB81E4232 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -278,81 +338,23 @@
 			};
 			name = Release;
 		};
-		A6BB3A3A1B8E5C4483B2AE8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSTACCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSTACCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lulu needs your microphone to listen to you read in French.";
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Lulu uses on-device speech recognition to check your French pronunciation.";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Lulu needs the camera to scan your French worksheets.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LE_SWIFT_VERSION = 5.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lulu.frenchtutor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BDA8BDAAACC7130B60BD66ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSTACCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSTACCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lulu needs your microphone to listen to you read in French.";
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Lulu uses on-device speech recognition to check your French pronunciation.";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Lulu needs the camera to scan your French worksheets.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LE_SWIFT_VERSION = 5.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lulu.frenchtutor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7FE4902D5DBD467AB756876 /* Build configuration list for PBXProject "Lulu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E16C4977741A77CE40EB0D7 /* Debug */,
-				DDB6A9C8ACD7DAEAB81E4232 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		41B731BAEE19E1ACCE14F1E7 /* Build configuration list for PBXNativeTarget "Lulu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6BB3A3A1B8E5C4483B2AE8B /* Debug */,
 				BDA8BDAAACC7130B60BD66ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7FE4902D5DBD467AB756876 /* Build configuration list for PBXProject "Lulu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E16C4977741A77CE40EB0D7 /* Debug */,
+				DDB6A9C8ACD7DAEAB81E4232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

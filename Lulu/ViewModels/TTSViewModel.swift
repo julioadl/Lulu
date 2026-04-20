@@ -2,7 +2,7 @@ import SwiftUI
 import AVFoundation
 
 @MainActor
-class TTSViewModel: ObservableObject, AVSpeechSynthesizerDelegate {
+class TTSViewModel: NSObject, ObservableObject, AVSpeechSynthesizerDelegate {
     @Published var isSpeaking = false
     @Published var currentWordRange: NSRange? = nil  
     @Published var currentSentence: Sentence? = nil
@@ -11,7 +11,8 @@ class TTSViewModel: ObservableObject, AVSpeechSynthesizerDelegate {
     
     private let synthesizer = AVSpeechSynthesizer()
     
-    init() {
+    override init() {
+        super.init()
         synthesizer.delegate = self
     }
     

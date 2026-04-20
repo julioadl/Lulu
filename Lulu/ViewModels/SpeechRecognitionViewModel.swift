@@ -26,7 +26,7 @@ class SpeechRecognitionViewModel: ObservableObject {
                 continuation.resume(returning: status)
             }
         }
-        let micGranted = await AVAudioApplication.requestRecordPermission()
+        let micGranted = await requestMicrophonePermission()
         permissionGranted = (speechStatus == .authorized) && micGranted
     }
 
@@ -94,5 +94,13 @@ class SpeechRecognitionViewModel: ObservableObject {
 
     private func normalizeString(_ string: String) -> String {
         string.lowercased().filter { !$0.isPunctuation && !$0.isMathSymbol }
+    }
+
+    private func requestMicrophonePermission() async -> Bool {
+        await withCheckedContinuation { continuation in
+            AVAudioSession.sharedInstance().requestRecordPermission { granted in
+                continuation.resume(returning: granted)
+            }
+        }
     }
 }

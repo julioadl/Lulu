@@ -19,15 +19,18 @@ struct DocumentPageView: View {
                         GeometryReader { geo in
                             let size = geo.size
                             let scaledRect = CGRect(
-                                x: sentence.boundingBox.x * size.width,
-                                y: sentence.boundingBox.y * size.height,
+                                x: sentence.boundingBox.minX * size.width,
+                                y: sentence.boundingBox.minY * size.height,
                                 width: sentence.boundingBox.width * size.width,
                                 height: sentence.boundingBox.height * size.height
                             )
                             
                             RoundedRectangle(cornerRadius: 5)
-                                .fill(ttsVM.currentSentence?.id == sentence.id ? Color.yellow.opacity(0.5) : Color.clear)
-                                .strokeBorder(Color.yellow.opacity(ttsVM.currentSentence?.id == sentence.id ? 0.3 : 0), lineWidth: 2)
+                                .fill(Color.yellow.opacity(ttsVM.currentSentence?.id == sentence.id ? 0.5 : 0))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 5)
+                                        .stroke(Color.yellow.opacity(ttsVM.currentSentence?.id == sentence.id ? 0.3 : 0), lineWidth: 2)
+                                )
                                 .frame(width: scaledRect.width, height: scaledRect.height)
                                 .offset(x: scaledRect.minX, y: scaledRect.minY)
                                 .onTapGesture {

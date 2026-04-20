@@ -12,6 +12,13 @@ struct Sentence: Identifiable, Codable, Equatable {
         case x, y, width, height
         case pageIndex
     }
+
+    init(id: UUID, text: String, boundingBox: CGRect, pageIndex: Int) {
+        self.id = id
+        self.text = text
+        self.boundingBox = boundingBox
+        self.pageIndex = pageIndex
+    }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)

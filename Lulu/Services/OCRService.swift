@@ -34,7 +34,7 @@ actor OCRService {
                     return Sentence(id: UUID(), text: topCandidate, boundingBox: boundingBox, pageIndex: pageIndex)
                 }
                 
-                let groupedSentences = groupSentencesByProximity(sentences)
+                let groupedSentences = self.groupSentencesByProximity(sentences)
                 continuation.resume(with: .success(groupedSentences))
             }
             

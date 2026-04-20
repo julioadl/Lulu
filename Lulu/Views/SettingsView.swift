@@ -5,7 +5,7 @@ struct SettingsView: View {
     
     var body: some View {
         Form {
-            Section("Playback") {
+            Section(header: Text("Playback")) {
                 // Speed slider
                 HStack {
                     Text("Speed \(String(format: "%.1f", ttsVM.rate))x")
@@ -28,7 +28,7 @@ struct SettingsView: View {
                 }
             }
             
-            Section("About") {
+            Section(header: Text("About")) {
                 Text("Version 1.0")
                 Text("All processing happens on your device. No data is ever sent to the internet.")
             }
