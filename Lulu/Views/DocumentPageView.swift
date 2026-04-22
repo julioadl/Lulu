@@ -26,16 +26,15 @@ struct DocumentPageView: View {
                             )
                             
                             RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.yellow.opacity(ttsVM.currentSentence?.id == sentence.id ? 0.5 : 0))
+                                .fill(backgroundColor(for: sentence))
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 5)
-                                        .stroke(Color.yellow.opacity(ttsVM.currentSentence?.id == sentence.id ? 0.3 : 0), lineWidth: 2)
+                                        .stroke(borderColor(for: sentence), lineWidth: 2)
                                 )
                                 .frame(width: scaledRect.width, height: scaledRect.height)
                                 .offset(x: scaledRect.minX, y: scaledRect.minY)
                                 .onTapGesture {
-                                    docVM.selectedSentence = sentence
-                                    ttsVM.speak(sentence: sentence)
+                                    docVM.toggleSentenceSelection(sentence)
                                 }
                         }
                     }
@@ -45,5 +44,25 @@ struct DocumentPageView: View {
                     .foregroundColor(.secondary)
             }
         }
+    }
+
+    private func backgroundColor(for sentence: Sentence) -> Color {
+        if ttsVM.currentSentence?.id == sentence.id {
+            return Color.yellow.opacity(0.5)
+        }
+        if docVM.isSentenceSelected(sentence) {
+            return Color.blue.opacity(0.25)
+        }
+        return Color.clear
+    }
+
+    private func borderColor(for sentence: Sentence) -> Color {
+        if ttsVM.currentSentence?.id == sentence.id {
+            return Color.yellow.opacity(0.6)
+        }
+        if docVM.isSentenceSelected(sentence) {
+            return Color.blue.opacity(0.6)
+        }
+        return Color.clear
     }
 }

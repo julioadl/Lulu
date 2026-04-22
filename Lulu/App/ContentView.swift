@@ -6,17 +6,23 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            DocumentContainerView()
+            NavigationStack {
+                DocumentContainerView()
+            }
                 .tabItem {
                     Label("Read", systemImage: "book.fill")
                 }
             
-            ListenRepeatView()
+            NavigationStack {
+                ListenRepeatView()
+            }
                 .tabItem {
                     Label("Listen", systemImage: "mic.circle.fill")
                 }
             
-            SettingsView()
+            NavigationStack {
+                SettingsView()
+            }
                 .tabItem {
                     Label("Settings", systemImage: "gearshape.fill")
                 }
